@@ -1,10 +1,10 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.33.0.
+-- This file has been generated from package.yaml by hpack version 0.34.4.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 32e0669e795e3193a411bc5344dfc9fc680bfed5e77269ef76fb4d1d42c39513
+-- hash: 9e08da907a423e286dbceee1acf7c69f34890d82b691fd45d2787b400ffec468
 
 name:           stratosphere
 version:        0.59.1
@@ -2105,7 +2105,7 @@ library
       library-gen
   ghc-options: -Wall -O0
   build-depends:
-      aeson >=0.11
+      aeson >=2.0
     , aeson-pretty >=0.8
     , base >=4.8 && <5
     , bytestring
@@ -2125,7 +2125,7 @@ executable auto-scaling-group
       examples
   ghc-options: -Wall
   build-depends:
-      aeson >=0.11
+      aeson >=2.0
     , aeson-pretty >=0.8
     , base >=4.8 && <5
     , bytestring
@@ -2148,7 +2148,7 @@ executable rds-master-replica
       examples
   ghc-options: -Wall
   build-depends:
-      aeson >=0.11
+      aeson >=2.0
     , aeson-pretty >=0.8
     , base >=4.8 && <5
     , bytestring
@@ -2171,7 +2171,7 @@ executable s3-copy
       examples
   ghc-options: -Wall
   build-depends:
-      aeson >=0.11
+      aeson >=2.0
     , aeson-pretty >=0.8
     , base >=4.8 && <5
     , bytestring
@@ -2194,7 +2194,7 @@ executable simple-lambda
       examples
   ghc-options: -Wall
   build-depends:
-      aeson >=0.11
+      aeson >=2.0
     , aeson-pretty >=0.8
     , base >=4.8 && <5
     , bytestring
@@ -2218,7 +2218,7 @@ test-suite spec
   hs-source-dirs:
       tests
   build-depends:
-      aeson >=0.11
+      aeson >=2.0
     , aeson-pretty >=0.8
     , base
     , bytestring

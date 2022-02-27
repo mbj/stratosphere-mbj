@@ -1,10 +1,10 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.33.0.
+-- This file has been generated from package.yaml by hpack version 0.34.4.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: bb6fb8474cf051521a2f8f61aebe74685a53415c5b78e2c207fda35da18124d7
+-- hash: 85d8653225cb86304dd9e2480ebdb395c1682111cc8f89868036f57c11585d11
 
 name:           stratosphere-gen
 version:        0.1.0
@@ -27,7 +27,18 @@ executable stratosphere-gen
       Paths_stratosphere_gen
   hs-source-dirs:
       src
-  default-extensions: DeriveGeneric ExistentialQuantification FlexibleInstances FunctionalDependencies GeneralizedNewtypeDeriving MultiParamTypeClasses OverloadedStrings RecordWildCards ScopedTypeVariables StandaloneDeriving TemplateHaskell
+  default-extensions:
+      DeriveGeneric
+      ExistentialQuantification
+      FlexibleInstances
+      FunctionalDependencies
+      GeneralizedNewtypeDeriving
+      MultiParamTypeClasses
+      OverloadedStrings
+      RecordWildCards
+      ScopedTypeVariables
+      StandaloneDeriving
+      TemplateHaskell
   ghc-options: -Wall -O0
   build-depends:
       aeson >=0.11
