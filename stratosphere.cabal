@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 9e08da907a423e286dbceee1acf7c69f34890d82b691fd45d2787b400ffec468
+-- hash: 0e658b4dcbbfdbd4fe726fc7697fda031902c47dc8c98d598de81bbb8b47af9e
 
 name:           stratosphere
 version:        0.59.1
@@ -55,18 +55,6 @@ library
       Stratosphere.ResourceProperties.ACMPCACertificateAuthorityRevocationConfiguration
       Stratosphere.ResourceProperties.ACMPCACertificateAuthoritySubject
       Stratosphere.ResourceProperties.ACMPCACertificateValidity
-      Stratosphere.ResourceProperties.AmazonMQBrokerConfigurationId
-      Stratosphere.ResourceProperties.AmazonMQBrokerEncryptionOptions
-      Stratosphere.ResourceProperties.AmazonMQBrokerInterBrokerCred
-      Stratosphere.ResourceProperties.AmazonMQBrokerLdapMetadata
-      Stratosphere.ResourceProperties.AmazonMQBrokerLdapServerMetadata
-      Stratosphere.ResourceProperties.AmazonMQBrokerLogList
-      Stratosphere.ResourceProperties.AmazonMQBrokerMaintenanceWindow
-      Stratosphere.ResourceProperties.AmazonMQBrokerServerMetadata
-      Stratosphere.ResourceProperties.AmazonMQBrokerTagsEntry
-      Stratosphere.ResourceProperties.AmazonMQBrokerUser
-      Stratosphere.ResourceProperties.AmazonMQConfigurationAssociationConfigurationId
-      Stratosphere.ResourceProperties.AmazonMQConfigurationTagsEntry
       Stratosphere.ResourceProperties.AmplifyAppAutoBranchCreationConfig
       Stratosphere.ResourceProperties.AmplifyAppBasicAuthConfig
       Stratosphere.ResourceProperties.AmplifyAppCustomRule
@@ -135,92 +123,6 @@ library
       Stratosphere.ResourceProperties.ApplicationInsightsApplicationSubComponentConfigurationDetails
       Stratosphere.ResourceProperties.ApplicationInsightsApplicationSubComponentTypeConfiguration
       Stratosphere.ResourceProperties.ApplicationInsightsApplicationWindowsEvent
-      Stratosphere.ResourceProperties.AppMeshGatewayRouteGatewayRouteSpec
-      Stratosphere.ResourceProperties.AppMeshGatewayRouteGatewayRouteTarget
-      Stratosphere.ResourceProperties.AppMeshGatewayRouteGatewayRouteVirtualService
-      Stratosphere.ResourceProperties.AppMeshGatewayRouteGrpcGatewayRoute
-      Stratosphere.ResourceProperties.AppMeshGatewayRouteGrpcGatewayRouteAction
-      Stratosphere.ResourceProperties.AppMeshGatewayRouteGrpcGatewayRouteMatch
-      Stratosphere.ResourceProperties.AppMeshGatewayRouteHttpGatewayRoute
-      Stratosphere.ResourceProperties.AppMeshGatewayRouteHttpGatewayRouteAction
-      Stratosphere.ResourceProperties.AppMeshGatewayRouteHttpGatewayRouteMatch
-      Stratosphere.ResourceProperties.AppMeshMeshEgressFilter
-      Stratosphere.ResourceProperties.AppMeshMeshMeshSpec
-      Stratosphere.ResourceProperties.AppMeshRouteDuration
-      Stratosphere.ResourceProperties.AppMeshRouteGrpcRetryPolicy
-      Stratosphere.ResourceProperties.AppMeshRouteGrpcRoute
-      Stratosphere.ResourceProperties.AppMeshRouteGrpcRouteAction
-      Stratosphere.ResourceProperties.AppMeshRouteGrpcRouteMatch
-      Stratosphere.ResourceProperties.AppMeshRouteGrpcRouteMetadata
-      Stratosphere.ResourceProperties.AppMeshRouteGrpcRouteMetadataMatchMethod
-      Stratosphere.ResourceProperties.AppMeshRouteGrpcTimeout
-      Stratosphere.ResourceProperties.AppMeshRouteHeaderMatchMethod
-      Stratosphere.ResourceProperties.AppMeshRouteHttpRetryPolicy
-      Stratosphere.ResourceProperties.AppMeshRouteHttpRoute
-      Stratosphere.ResourceProperties.AppMeshRouteHttpRouteAction
-      Stratosphere.ResourceProperties.AppMeshRouteHttpRouteHeader
-      Stratosphere.ResourceProperties.AppMeshRouteHttpRouteMatch
-      Stratosphere.ResourceProperties.AppMeshRouteHttpTimeout
-      Stratosphere.ResourceProperties.AppMeshRouteMatchRange
-      Stratosphere.ResourceProperties.AppMeshRouteRouteSpec
-      Stratosphere.ResourceProperties.AppMeshRouteTcpRoute
-      Stratosphere.ResourceProperties.AppMeshRouteTcpRouteAction
-      Stratosphere.ResourceProperties.AppMeshRouteTcpTimeout
-      Stratosphere.ResourceProperties.AppMeshRouteWeightedTarget
-      Stratosphere.ResourceProperties.AppMeshVirtualGatewayVirtualGatewayAccessLog
-      Stratosphere.ResourceProperties.AppMeshVirtualGatewayVirtualGatewayBackendDefaults
-      Stratosphere.ResourceProperties.AppMeshVirtualGatewayVirtualGatewayClientPolicy
-      Stratosphere.ResourceProperties.AppMeshVirtualGatewayVirtualGatewayClientPolicyTls
-      Stratosphere.ResourceProperties.AppMeshVirtualGatewayVirtualGatewayFileAccessLog
-      Stratosphere.ResourceProperties.AppMeshVirtualGatewayVirtualGatewayHealthCheckPolicy
-      Stratosphere.ResourceProperties.AppMeshVirtualGatewayVirtualGatewayListener
-      Stratosphere.ResourceProperties.AppMeshVirtualGatewayVirtualGatewayListenerTls
-      Stratosphere.ResourceProperties.AppMeshVirtualGatewayVirtualGatewayListenerTlsAcmCertificate
-      Stratosphere.ResourceProperties.AppMeshVirtualGatewayVirtualGatewayListenerTlsCertificate
-      Stratosphere.ResourceProperties.AppMeshVirtualGatewayVirtualGatewayListenerTlsFileCertificate
-      Stratosphere.ResourceProperties.AppMeshVirtualGatewayVirtualGatewayLogging
-      Stratosphere.ResourceProperties.AppMeshVirtualGatewayVirtualGatewayPortMapping
-      Stratosphere.ResourceProperties.AppMeshVirtualGatewayVirtualGatewaySpec
-      Stratosphere.ResourceProperties.AppMeshVirtualGatewayVirtualGatewayTlsValidationContext
-      Stratosphere.ResourceProperties.AppMeshVirtualGatewayVirtualGatewayTlsValidationContextAcmTrust
-      Stratosphere.ResourceProperties.AppMeshVirtualGatewayVirtualGatewayTlsValidationContextFileTrust
-      Stratosphere.ResourceProperties.AppMeshVirtualGatewayVirtualGatewayTlsValidationContextTrust
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeAccessLog
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeAwsCloudMapInstanceAttribute
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeAwsCloudMapServiceDiscovery
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeBackend
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeBackendDefaults
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeClientPolicy
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeClientPolicyTls
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeDnsServiceDiscovery
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeDuration
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeFileAccessLog
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeGrpcTimeout
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeHealthCheck
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeHttpTimeout
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeListener
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeListenerTimeout
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeListenerTls
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeListenerTlsAcmCertificate
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeListenerTlsCertificate
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeListenerTlsFileCertificate
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeLogging
-      Stratosphere.ResourceProperties.AppMeshVirtualNodePortMapping
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeServiceDiscovery
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeTcpTimeout
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeTlsValidationContext
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeTlsValidationContextAcmTrust
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeTlsValidationContextFileTrust
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeTlsValidationContextTrust
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeVirtualNodeSpec
-      Stratosphere.ResourceProperties.AppMeshVirtualNodeVirtualServiceBackend
-      Stratosphere.ResourceProperties.AppMeshVirtualRouterPortMapping
-      Stratosphere.ResourceProperties.AppMeshVirtualRouterVirtualRouterListener
-      Stratosphere.ResourceProperties.AppMeshVirtualRouterVirtualRouterSpec
-      Stratosphere.ResourceProperties.AppMeshVirtualServiceVirtualNodeServiceProvider
-      Stratosphere.ResourceProperties.AppMeshVirtualServiceVirtualRouterServiceProvider
-      Stratosphere.ResourceProperties.AppMeshVirtualServiceVirtualServiceProvider
-      Stratosphere.ResourceProperties.AppMeshVirtualServiceVirtualServiceSpec
       Stratosphere.ResourceProperties.AppStreamDirectoryConfigServiceAccountCredentials
       Stratosphere.ResourceProperties.AppStreamFleetComputeCapacity
       Stratosphere.ResourceProperties.AppStreamFleetDomainJoinInfo
@@ -855,56 +757,6 @@ library
       Stratosphere.ResourceProperties.GlueTriggerCondition
       Stratosphere.ResourceProperties.GlueTriggerNotificationProperty
       Stratosphere.ResourceProperties.GlueTriggerPredicate
-      Stratosphere.ResourceProperties.GreengrassConnectorDefinitionConnector
-      Stratosphere.ResourceProperties.GreengrassConnectorDefinitionConnectorDefinitionVersion
-      Stratosphere.ResourceProperties.GreengrassConnectorDefinitionVersionConnector
-      Stratosphere.ResourceProperties.GreengrassCoreDefinitionCore
-      Stratosphere.ResourceProperties.GreengrassCoreDefinitionCoreDefinitionVersion
-      Stratosphere.ResourceProperties.GreengrassCoreDefinitionVersionCore
-      Stratosphere.ResourceProperties.GreengrassDeviceDefinitionDevice
-      Stratosphere.ResourceProperties.GreengrassDeviceDefinitionDeviceDefinitionVersion
-      Stratosphere.ResourceProperties.GreengrassDeviceDefinitionVersionDevice
-      Stratosphere.ResourceProperties.GreengrassFunctionDefinitionDefaultConfig
-      Stratosphere.ResourceProperties.GreengrassFunctionDefinitionEnvironment
-      Stratosphere.ResourceProperties.GreengrassFunctionDefinitionExecution
-      Stratosphere.ResourceProperties.GreengrassFunctionDefinitionFunction
-      Stratosphere.ResourceProperties.GreengrassFunctionDefinitionFunctionConfiguration
-      Stratosphere.ResourceProperties.GreengrassFunctionDefinitionFunctionDefinitionVersion
-      Stratosphere.ResourceProperties.GreengrassFunctionDefinitionResourceAccessPolicy
-      Stratosphere.ResourceProperties.GreengrassFunctionDefinitionRunAs
-      Stratosphere.ResourceProperties.GreengrassFunctionDefinitionVersionDefaultConfig
-      Stratosphere.ResourceProperties.GreengrassFunctionDefinitionVersionEnvironment
-      Stratosphere.ResourceProperties.GreengrassFunctionDefinitionVersionExecution
-      Stratosphere.ResourceProperties.GreengrassFunctionDefinitionVersionFunction
-      Stratosphere.ResourceProperties.GreengrassFunctionDefinitionVersionFunctionConfiguration
-      Stratosphere.ResourceProperties.GreengrassFunctionDefinitionVersionResourceAccessPolicy
-      Stratosphere.ResourceProperties.GreengrassFunctionDefinitionVersionRunAs
-      Stratosphere.ResourceProperties.GreengrassGroupGroupVersion
-      Stratosphere.ResourceProperties.GreengrassLoggerDefinitionLogger
-      Stratosphere.ResourceProperties.GreengrassLoggerDefinitionLoggerDefinitionVersion
-      Stratosphere.ResourceProperties.GreengrassLoggerDefinitionVersionLogger
-      Stratosphere.ResourceProperties.GreengrassResourceDefinitionGroupOwnerSetting
-      Stratosphere.ResourceProperties.GreengrassResourceDefinitionLocalDeviceResourceData
-      Stratosphere.ResourceProperties.GreengrassResourceDefinitionLocalVolumeResourceData
-      Stratosphere.ResourceProperties.GreengrassResourceDefinitionResourceDataContainer
-      Stratosphere.ResourceProperties.GreengrassResourceDefinitionResourceDefinitionVersion
-      Stratosphere.ResourceProperties.GreengrassResourceDefinitionResourceDownloadOwnerSetting
-      Stratosphere.ResourceProperties.GreengrassResourceDefinitionResourceInstance
-      Stratosphere.ResourceProperties.GreengrassResourceDefinitionS3MachineLearningModelResourceData
-      Stratosphere.ResourceProperties.GreengrassResourceDefinitionSageMakerMachineLearningModelResourceData
-      Stratosphere.ResourceProperties.GreengrassResourceDefinitionSecretsManagerSecretResourceData
-      Stratosphere.ResourceProperties.GreengrassResourceDefinitionVersionGroupOwnerSetting
-      Stratosphere.ResourceProperties.GreengrassResourceDefinitionVersionLocalDeviceResourceData
-      Stratosphere.ResourceProperties.GreengrassResourceDefinitionVersionLocalVolumeResourceData
-      Stratosphere.ResourceProperties.GreengrassResourceDefinitionVersionResourceDataContainer
-      Stratosphere.ResourceProperties.GreengrassResourceDefinitionVersionResourceDownloadOwnerSetting
-      Stratosphere.ResourceProperties.GreengrassResourceDefinitionVersionResourceInstance
-      Stratosphere.ResourceProperties.GreengrassResourceDefinitionVersionS3MachineLearningModelResourceData
-      Stratosphere.ResourceProperties.GreengrassResourceDefinitionVersionSageMakerMachineLearningModelResourceData
-      Stratosphere.ResourceProperties.GreengrassResourceDefinitionVersionSecretsManagerSecretResourceData
-      Stratosphere.ResourceProperties.GreengrassSubscriptionDefinitionSubscription
-      Stratosphere.ResourceProperties.GreengrassSubscriptionDefinitionSubscriptionDefinitionVersion
-      Stratosphere.ResourceProperties.GreengrassSubscriptionDefinitionVersionSubscription
       Stratosphere.ResourceProperties.GuardDutyDetectorCFNDataSourceConfigurations
       Stratosphere.ResourceProperties.GuardDutyDetectorCFNS3LogsConfiguration
       Stratosphere.ResourceProperties.GuardDutyFilterCondition
@@ -922,104 +774,6 @@ library
       Stratosphere.ResourceProperties.ImageBuilderImageRecipeInstanceBlockDeviceMapping
       Stratosphere.ResourceProperties.ImageBuilderInfrastructureConfigurationLogging
       Stratosphere.ResourceProperties.ImageBuilderInfrastructureConfigurationS3Logs
-      Stratosphere.ResourceProperties.IoT1ClickProjectDeviceTemplate
-      Stratosphere.ResourceProperties.IoT1ClickProjectPlacementTemplate
-      Stratosphere.ResourceProperties.IoTAnalyticsChannelChannelStorage
-      Stratosphere.ResourceProperties.IoTAnalyticsChannelCustomerManagedS3
-      Stratosphere.ResourceProperties.IoTAnalyticsChannelRetentionPeriod
-      Stratosphere.ResourceProperties.IoTAnalyticsChannelServiceManagedS3
-      Stratosphere.ResourceProperties.IoTAnalyticsDatasetAction
-      Stratosphere.ResourceProperties.IoTAnalyticsDatasetContainerAction
-      Stratosphere.ResourceProperties.IoTAnalyticsDatasetDatasetContentDeliveryRule
-      Stratosphere.ResourceProperties.IoTAnalyticsDatasetDatasetContentDeliveryRuleDestination
-      Stratosphere.ResourceProperties.IoTAnalyticsDatasetDatasetContentVersionValue
-      Stratosphere.ResourceProperties.IoTAnalyticsDatasetDeltaTime
-      Stratosphere.ResourceProperties.IoTAnalyticsDatasetFilter
-      Stratosphere.ResourceProperties.IoTAnalyticsDatasetGlueConfiguration
-      Stratosphere.ResourceProperties.IoTAnalyticsDatasetIotEventsDestinationConfiguration
-      Stratosphere.ResourceProperties.IoTAnalyticsDatasetOutputFileUriValue
-      Stratosphere.ResourceProperties.IoTAnalyticsDatasetQueryAction
-      Stratosphere.ResourceProperties.IoTAnalyticsDatasetResourceConfiguration
-      Stratosphere.ResourceProperties.IoTAnalyticsDatasetRetentionPeriod
-      Stratosphere.ResourceProperties.IoTAnalyticsDatasetS3DestinationConfiguration
-      Stratosphere.ResourceProperties.IoTAnalyticsDatasetSchedule
-      Stratosphere.ResourceProperties.IoTAnalyticsDatasetTrigger
-      Stratosphere.ResourceProperties.IoTAnalyticsDatasetTriggeringDataset
-      Stratosphere.ResourceProperties.IoTAnalyticsDatasetVariable
-      Stratosphere.ResourceProperties.IoTAnalyticsDatasetVersioningConfiguration
-      Stratosphere.ResourceProperties.IoTAnalyticsDatastoreCustomerManagedS3
-      Stratosphere.ResourceProperties.IoTAnalyticsDatastoreDatastoreStorage
-      Stratosphere.ResourceProperties.IoTAnalyticsDatastoreRetentionPeriod
-      Stratosphere.ResourceProperties.IoTAnalyticsDatastoreServiceManagedS3
-      Stratosphere.ResourceProperties.IoTAnalyticsPipelineActivity
-      Stratosphere.ResourceProperties.IoTAnalyticsPipelineAddAttributes
-      Stratosphere.ResourceProperties.IoTAnalyticsPipelineChannel
-      Stratosphere.ResourceProperties.IoTAnalyticsPipelineDatastore
-      Stratosphere.ResourceProperties.IoTAnalyticsPipelineDeviceRegistryEnrich
-      Stratosphere.ResourceProperties.IoTAnalyticsPipelineDeviceShadowEnrich
-      Stratosphere.ResourceProperties.IoTAnalyticsPipelineFilter
-      Stratosphere.ResourceProperties.IoTAnalyticsPipelineLambda
-      Stratosphere.ResourceProperties.IoTAnalyticsPipelineMath
-      Stratosphere.ResourceProperties.IoTAnalyticsPipelineRemoveAttributes
-      Stratosphere.ResourceProperties.IoTAnalyticsPipelineSelectAttributes
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelAction
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelAssetPropertyTimestamp
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelAssetPropertyValue
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelAssetPropertyVariant
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelClearTimer
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelDetectorModelDefinition
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelDynamoDB
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelDynamoDBv2
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelEvent
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelFirehose
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelIotEvents
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelIotSiteWise
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelIotTopicPublish
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelLambda
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelOnEnter
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelOnExit
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelOnInput
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelPayload
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelResetTimer
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelSetTimer
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelSetVariable
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelSns
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelSqs
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelState
-      Stratosphere.ResourceProperties.IoTEventsDetectorModelTransitionEvent
-      Stratosphere.ResourceProperties.IoTEventsInputAttribute
-      Stratosphere.ResourceProperties.IoTEventsInputInputDefinition
-      Stratosphere.ResourceProperties.IoTProvisioningTemplateProvisioningHook
-      Stratosphere.ResourceProperties.IoTProvisioningTemplateTags
-      Stratosphere.ResourceProperties.IoTThingAttributePayload
-      Stratosphere.ResourceProperties.IoTThingsGraphFlowTemplateDefinitionDocument
-      Stratosphere.ResourceProperties.IoTTopicRuleAction
-      Stratosphere.ResourceProperties.IoTTopicRuleAssetPropertyTimestamp
-      Stratosphere.ResourceProperties.IoTTopicRuleAssetPropertyValue
-      Stratosphere.ResourceProperties.IoTTopicRuleAssetPropertyVariant
-      Stratosphere.ResourceProperties.IoTTopicRuleCloudwatchAlarmAction
-      Stratosphere.ResourceProperties.IoTTopicRuleCloudwatchMetricAction
-      Stratosphere.ResourceProperties.IoTTopicRuleDynamoDBAction
-      Stratosphere.ResourceProperties.IoTTopicRuleDynamoDBV2Action
-      Stratosphere.ResourceProperties.IoTTopicRuleElasticsearchAction
-      Stratosphere.ResourceProperties.IoTTopicRuleFirehoseAction
-      Stratosphere.ResourceProperties.IoTTopicRuleHttpAction
-      Stratosphere.ResourceProperties.IoTTopicRuleHttpActionHeader
-      Stratosphere.ResourceProperties.IoTTopicRuleHttpAuthorization
-      Stratosphere.ResourceProperties.IoTTopicRuleIotAnalyticsAction
-      Stratosphere.ResourceProperties.IoTTopicRuleIotEventsAction
-      Stratosphere.ResourceProperties.IoTTopicRuleIotSiteWiseAction
-      Stratosphere.ResourceProperties.IoTTopicRuleKinesisAction
-      Stratosphere.ResourceProperties.IoTTopicRuleLambdaAction
-      Stratosphere.ResourceProperties.IoTTopicRulePutAssetPropertyValueEntry
-      Stratosphere.ResourceProperties.IoTTopicRulePutItemInput
-      Stratosphere.ResourceProperties.IoTTopicRuleRepublishAction
-      Stratosphere.ResourceProperties.IoTTopicRuleS3Action
-      Stratosphere.ResourceProperties.IoTTopicRuleSigV4Authorization
-      Stratosphere.ResourceProperties.IoTTopicRuleSnsAction
-      Stratosphere.ResourceProperties.IoTTopicRuleSqsAction
-      Stratosphere.ResourceProperties.IoTTopicRuleStepFunctionsAction
-      Stratosphere.ResourceProperties.IoTTopicRuleTopicRulePayload
       Stratosphere.ResourceProperties.KinesisAnalyticsApplicationCSVMappingParameters
       Stratosphere.ResourceProperties.KinesisAnalyticsApplicationInput
       Stratosphere.ResourceProperties.KinesisAnalyticsApplicationInputLambdaProcessor
@@ -1543,9 +1297,6 @@ library
       Stratosphere.Resources.ACMPCACertificate
       Stratosphere.Resources.ACMPCACertificateAuthority
       Stratosphere.Resources.ACMPCACertificateAuthorityActivation
-      Stratosphere.Resources.AmazonMQBroker
-      Stratosphere.Resources.AmazonMQConfiguration
-      Stratosphere.Resources.AmazonMQConfigurationAssociation
       Stratosphere.Resources.AmplifyApp
       Stratosphere.Resources.AmplifyBranch
       Stratosphere.Resources.AmplifyDomain
@@ -1590,13 +1341,6 @@ library
       Stratosphere.Resources.ApplicationAutoScalingScalableTarget
       Stratosphere.Resources.ApplicationAutoScalingScalingPolicy
       Stratosphere.Resources.ApplicationInsightsApplication
-      Stratosphere.Resources.AppMeshGatewayRoute
-      Stratosphere.Resources.AppMeshMesh
-      Stratosphere.Resources.AppMeshRoute
-      Stratosphere.Resources.AppMeshVirtualGateway
-      Stratosphere.Resources.AppMeshVirtualNode
-      Stratosphere.Resources.AppMeshVirtualRouter
-      Stratosphere.Resources.AppMeshVirtualService
       Stratosphere.Resources.AppStreamDirectoryConfig
       Stratosphere.Resources.AppStreamFleet
       Stratosphere.Resources.AppStreamImageBuilder
@@ -1839,22 +1583,6 @@ library
       Stratosphere.Resources.GlueTable
       Stratosphere.Resources.GlueTrigger
       Stratosphere.Resources.GlueWorkflow
-      Stratosphere.Resources.GreengrassConnectorDefinition
-      Stratosphere.Resources.GreengrassConnectorDefinitionVersion
-      Stratosphere.Resources.GreengrassCoreDefinition
-      Stratosphere.Resources.GreengrassCoreDefinitionVersion
-      Stratosphere.Resources.GreengrassDeviceDefinition
-      Stratosphere.Resources.GreengrassDeviceDefinitionVersion
-      Stratosphere.Resources.GreengrassFunctionDefinition
-      Stratosphere.Resources.GreengrassFunctionDefinitionVersion
-      Stratosphere.Resources.GreengrassGroup
-      Stratosphere.Resources.GreengrassGroupVersion
-      Stratosphere.Resources.GreengrassLoggerDefinition
-      Stratosphere.Resources.GreengrassLoggerDefinitionVersion
-      Stratosphere.Resources.GreengrassResourceDefinition
-      Stratosphere.Resources.GreengrassResourceDefinitionVersion
-      Stratosphere.Resources.GreengrassSubscriptionDefinition
-      Stratosphere.Resources.GreengrassSubscriptionDefinitionVersion
       Stratosphere.Resources.GuardDutyDetector
       Stratosphere.Resources.GuardDutyFilter
       Stratosphere.Resources.GuardDutyIPSet
@@ -1879,23 +1607,6 @@ library
       Stratosphere.Resources.InspectorAssessmentTarget
       Stratosphere.Resources.InspectorAssessmentTemplate
       Stratosphere.Resources.InspectorResourceGroup
-      Stratosphere.Resources.IoT1ClickDevice
-      Stratosphere.Resources.IoT1ClickPlacement
-      Stratosphere.Resources.IoT1ClickProject
-      Stratosphere.Resources.IoTAnalyticsChannel
-      Stratosphere.Resources.IoTAnalyticsDataset
-      Stratosphere.Resources.IoTAnalyticsDatastore
-      Stratosphere.Resources.IoTAnalyticsPipeline
-      Stratosphere.Resources.IoTCertificate
-      Stratosphere.Resources.IoTEventsDetectorModel
-      Stratosphere.Resources.IoTEventsInput
-      Stratosphere.Resources.IoTPolicy
-      Stratosphere.Resources.IoTPolicyPrincipalAttachment
-      Stratosphere.Resources.IoTProvisioningTemplate
-      Stratosphere.Resources.IoTThing
-      Stratosphere.Resources.IoTThingPrincipalAttachment
-      Stratosphere.Resources.IoTThingsGraphFlowTemplate
-      Stratosphere.Resources.IoTTopicRule
       Stratosphere.Resources.KinesisAnalyticsApplication
       Stratosphere.Resources.KinesisAnalyticsApplicationOutput
       Stratosphere.Resources.KinesisAnalyticsApplicationReferenceDataSource
